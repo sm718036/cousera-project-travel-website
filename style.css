@@ -378,17 +378,20 @@ footer>.clock {
 /* Dynamic Cards Styles */
 
 #searchedDataContainer {
-    position: absolute;
+    height: 450px;
+    width: 400px;
+    position: fixed;
     top: 4.5rem;
     right: 5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    overflow-y: scroll;
 }
 
 #searchedDataCard {
-    width: 400px;
-    height: 400px;
+    min-width: 100%;
+    min-height: 90%;
     background-color: white;
     border-radius: 0.625rem;
     overflow: hidden;
